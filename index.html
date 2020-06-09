@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+	<link rel="stylesheet" href="css/index.css">
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<div class="bodyWrap">
+		<div class="bodyWrapL">
+			<div>
+				<img src="images/3.png" alt="" >
+				<div class="score">
+					<div>23</div>
+					<div>温度 &nbsp;C° </div>
+				</div>
+			</div>
+			<div>
+				<img src="images/4.png" alt="" >
+				<div class="score">
+					<div>59</div>
+					<div>湿度% </div>
+				</div>
+			</div>
+			<div>
+				<img src="images/5.png" alt="" >
+				<div class="score">
+					<div>432</div>
+					<div>二氧化氮ppm</div>
+				</div>
+			</div>
+		</div>
+		<div class="bodyWrapM">
+			<img src="images/画板备份 3@2x(1).png" alt="" class="img_header">
+			<div class="wrapMinner">
+				<div class="wrapMinnerTop">
+					<div>上海宝业中心</div>
+					<div class="bgContent"></div>
+				</div>
+				<div class="wrapMinnerBottom">
+					<div>每月节能情况</div>
+					<div class="bg_content middle">
+						<div class="blWrap middle">
+							<div class="bl">
+								<div class="middle"><img src="images/设备用电接驳备份@2x.png" alt="" class="middle"><span class="middle">节约电量(度)</span></div>
+								<div class="middle"><span class="middle">当月</span><font class="middle">5,731</font></div>
+								<div >累计 99,389</div>
+							</div>
+							<div class="bl">
+								<div class="middle"><img src="images/收益备份@2x.png" alt="" class="middle"><span class="middle">收益（元）</span></div>
+								<div class="middle"><span class="middle">当月</span><font class="middle">5,131</font></div>
+								<div >累计 19,1125</div>
+							</div>
+						</div>
+						<div class="bf middle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bodyWrapL">
+			<div>
+				<img src="images/3.png" alt="" >
+				<div class="score">
+					<div>239</div>
+					<div>PM 2.5</div>
+				</div>
+			</div>
+			<div>
+				<img src="images/6.png" alt="" >
+				<div class="score">
+					<div>1.7</div>
+					<div>CO mg/m</div>
+				</div>
+			</div>
+			<div>
+				<img src="images/7.png" alt="" >
+				<div class="score">
+					<div>0.17</div>
+					<div>TVOC mg/m</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="phoneWrap">
+		<img src="images/1.png" alt="" class="headerImg">
+		<div class="phoneTop">
+			<div class="phoneTitle">每月节能情况</div>
+			<div class="phoneTopcontent">
+				<div class="phonetopInner">
+					<img src="images/8.png" alt="">
+					<div class="phonetopInnerDiv">
+						<div>节约电量（度）</div>
+						<div class="middle"><span>当月</span><font class="middle">5,731</font></div>
+						<div>累计99,389</div>
+					</div>
+				</div>
+				<div class="phonetopInner">
+					<img src="images/9.png" alt="">
+					<div class="phonetopInnerDiv">
+						<div>收益（元）</div>
+						<div class="middle"><span>当月</span><font class="middle">5,089</font></div>
+						<div>累计92,270</div>
+					</div>
+				</div>
+			</div>
+			<img src="images/2.png" alt="" class="phonebg">
+		</div>
+		<div class="phoneBottom">
+			<div class="phoneTitle">实时监控情况</div>
+			<div class="phoneCircle">
+				<img src="images/3.png" alt="">
+				<div class="score phoneScore">
+					<div>23</div>
+					<div>温度°C</div>
+				</div>
+			</div>
+			<div class="phoneCircle">
+				<img src="images/4.png" alt="">
+				<div class="score phoneScore">
+					<div>59</div>
+					<div>湿度%</div>
+				</div>
+			</div>
+			<div class="phoneCircle">
+				<img src="images/5.png" alt="">
+				<div class="score phoneScore">
+					<div>432</div>
+					<div>二氧化氮<br><span class="lspan">ppm</span></div>
+				</div>
+			</div>
+			<div class="phoneCircle">
+				<img src="images/3.png" alt="">
+				<div class="score phoneScore">
+					<div>239</div>
+					<div>PM 2.5</div>
+				</div>
+			</div>
+			<div class="phoneCircle">
+				<img src="images/6.png" alt="">
+				<div class="score phoneScore">
+					<div>1.7</div>
+					<div>CO <br> <span class="lspan">mg/m%</span></div>
+				</div>
+			</div>
+			<div class="phoneCircle">
+				<img src="images/7.png" alt="">
+				<div class="score phoneScore">
+					<div>0.17</div>
+					<div>TVOC<br><span class="lspan">mg/m</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+	$(function(){
+	    var mobile_flag = isMobile(); // true为PC端，false为手机端
+	
+	    if(mobile_flag){
+			$(".bodyWrap").hide();
+			$(".phoneWrap").show();
+	    }else{
+			$(".bodyWrap").show();
+			$(".phoneWrap").hide();
+		}
+	});
+	
+	function isMobile() {
+	    var userAgentInfo = navigator.userAgent;
+	
+	    var mobileAgents = [ "Android", "iPhone", "SymbianOS", "Windows Phone", "iPad","iPod"];
+	
+	    var mobile_flag = false;
+	
+	    //根据userAgent判断是否是手机
+	    for (var v = 0; v < mobileAgents.length; v++) {
+	        if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+	            mobile_flag = true;
+	            break;
+	        }
+	    }
+	
+	     var screen_width = window.screen.width;
+	     var screen_height = window.screen.height;    
+	
+	     //根据屏幕分辨率判断是否是手机
+	     if(screen_width < 500 && screen_height < 800){
+	         mobile_flag = true;
+	     }
+	
+	     return mobile_flag;
+	}
+</script>
+</html>

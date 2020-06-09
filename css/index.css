@@ -1,0 +1,252 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.bodyWrap{
+	width: 100%;
+	height: 100%;
+}
+.bodyWrapL{
+	width: 22%;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	background: #0F1E39;
+}
+.bodyWrapM{
+	width: 56%;
+	height: 100%;
+	background: #070e21;
+	float: left;
+}
+.bodyWrapR{
+	width: 22%;
+	height: 100%;
+	float: left;
+	background: #0F1E39;
+}
+.img_header{
+	width: 100%;
+}
+.wrapMinner{
+	height: 82%;
+	width: 100%;
+}
+.wrapMinnerTop{
+	width: 100%;
+	height: 50%;
+	padding-left: 44px;
+	padding-right: 45px;
+	padding-top: 0px;
+	position: relative;
+	top: -25px;
+}
+.wrapMinnerBottom{
+	height: 50%;
+	margin-left: 44px;
+	margin-right: 45px;
+	padding-top: 0px;
+	margin-top: 15px;
+}
+.bg_content{
+	width: 100%;
+	height: 70%;
+	padding-top: 15px;
+	background: #0f1e39;
+	padding-bottom: 19px;
+	padding-left: 20px;
+}
+.wrapMinnerTop div:nth-of-type(1){
+	color: #fff;
+	font-size: 12px;
+	margin-bottom:6px;
+}
+.wrapMinnerBottom >div:nth-of-type(1){
+	color: #fff;
+	font-size: 12px;
+	margin-bottom:9px;
+}
+.bgContent{
+   width: 100%;
+   height: 100%;
+   background: url(../images/1.png) no-repeat center center;
+   background-size: cover;
+}
+.middle{
+	vertical-align: middle;
+}
+.bg_content{
+}
+.blWrap{
+	display: inline-block;
+}
+.bl div:nth-of-type(1){
+	font-size:12px;
+	font-family:PingFangSC-Regular,PingFang SC;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+}
+.bl>div{
+	margin-bottom: 2px;
+}
+.bl div:nth-of-type(1) img{
+	width: 18px;
+	height: 18px;
+	margin-right: 4px;
+}
+.bl div:nth-of-type(2){
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+.bl div:nth-of-type(2) font{
+	font-size: 18px;
+	 margin-left: 4px;
+}
+.bl div:nth-of-type(3){
+	color: #6b7585;
+	font-size: 12px;
+}
+.bf{
+	width: 75%;
+	height: 100%;
+	display: inline-block;
+	background: url(../images/2.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-left: 20px;
+}
+.bodyWrapL>div{
+	width: 100%;
+	height: 30.3%;
+	margin-bottom: 7%;
+	position: relative;
+	text-align: center;
+}
+.bodyWrapL>div:nth-of-type(3){
+	margin-bottom: 0;
+}
+.bodyWrapL>div img{
+	height: 100%;
+}
+.score{
+	width: 100px;
+	height: 50%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+.score div:nth-of-type(1){
+	font-size: 34px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.score div:nth-of-type(2){
+	font-size: 14px;
+	color: #4f5e7b;
+	font-weight: bold;
+}
+
+
+/* 手机 */
+.headerImg{
+	width: 100%;
+}
+.phoneTop{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #0F1E39;
+	margin-top: -5px;
+	border-bottom: 15px solid #070e21;
+}
+.phoneTitle{
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.phoneTopcontent{
+	position: relative;
+	overflow: hidden;
+}
+.phonetopInner{
+	width: 49.9%;
+	float: left;
+}
+.phonetopInner>img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: relative;
+	top:5px
+}
+.phonetopInnerDiv{
+	margin-left: 60px;
+}
+.phonetopInnerDiv div:nth-of-type(1){
+	color: #878e9c;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.phonetopInnerDiv div:nth-of-type(2){
+	color: #878e9c;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.phonetopInnerDiv div:nth-of-type(2) font{
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.phonetopInnerDiv div:nth-of-type(3){
+	color: #878e9c;
+	font-size: 12px;
+}
+.phonebg{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.phoneBottom{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #0F1E39;
+	overflow: hidden;
+}
+.phoneCircle{
+	margin-bottom: 15px;
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.phoneCircle img{
+	width: 82%;
+}
+.phoneScore{
+	top:45%
+}
+.phoneScore div:nth-of-type(1){
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.phoneScore div:nth-of-type(2){
+	font-size: 12px;
+}
+.lspan{
+	position: relative;
+	top:-10px;
+}
